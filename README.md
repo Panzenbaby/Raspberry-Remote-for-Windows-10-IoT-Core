@@ -19,7 +19,7 @@ provided by Microsoft in the extension Windows IoT Extensions for the UWP.
 
 ## Setup
 * Setup Windows 10 IoT Core on your Raspberry Pi [GetStarted](http://ms-iot.github.io/content/en-US/GetStarted.htm)
-* Connect your transmitter with your Raspberry Pi. As data port I prefer the GPIO port 5 which is the pin 29 on the board of your Raspberry. But you can chose every port you want (theoretically). If you're not familiar the Raspberry Pi pin mappings you should have a look on [Raspberry Pi 2 Pin Mappings](http://ms-iot.github.io/content/en-US/win10/samples/PinMappingsRPi2.htm).
+* Connect your transmitter with your Raspberry Pi. As data port I prefer the GPIO port 5 which is pin 29 on the board of your Raspberry (theoretically you can choose every port you want). If you're not familiar the Raspberry Pi pin mappings you should have a look at [Raspberry Pi 2 Pin Mappings](http://ms-iot.github.io/content/en-US/win10/samples/PinMappingsRPi2.htm).
 * If you don't already have a project in Visual Studio create a new Windows Universal project.
 * Checkout the Raspberry Remote for Windows 10 IoT Core project and add it to your solution by doing a right click on your solution and choose "Add" -> "Existing Project". Navigate to RaspberryRemote.csproj and confirm your selection.
 * Now add a reference to Raspberry Remote to your project by doing a right click on "References" and choose "Add Reference..." -> "Projects" -> "Solution" -> RaspberryRemote. Confirm with OK.
